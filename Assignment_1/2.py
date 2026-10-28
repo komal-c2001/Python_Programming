@@ -3,6 +3,6 @@ s = max(x for x in list if isinstance(x,(int)) and not isinstance(x,bool))
 for i in range(len(list)):
     if(list[i] == s):
         break
-print(list[:i-2])
-print(list[i-2::])
+print(list[:i])
+print(list[i::])
 print(s)
